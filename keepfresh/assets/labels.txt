@@ -1,0 +1,16 @@
+apple
+banana
+carrot
+cucumber
+fish_and_chips
+fried_noodles
+fried_rice
+hamburger
+kaya_toast
+laksa
+nasi_lemak
+orange
+popiah
+roti_canai
+satay
+unknown
