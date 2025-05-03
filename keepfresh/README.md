@@ -1,16 +1,18 @@
 # keepfresh
 
-A new Flutter project.
-
-## Getting Started
-
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Open your VS code terminal and type the following command to run:
+- flutter clean
+- flutter pub get
+- flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## If there is an error:
+bigLargeIcon is ambiguous
+      bigPictureStyle.bigLargeIcon(null);
+                     ^
+Solution:
+  1. Click on the error error file shown at the terminal(eg: C:\Users\raymo\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications-15.1.3\...)
+  2. Find "bigPictureStyle.bigLargeIcon(null);" in the file
+  3. Replace with "bigPictureStyle.bigLargeIcon((Bitmap) null);"
+  4. The error should be solved.
